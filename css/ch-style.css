@@ -1,0 +1,100 @@
+/*******************************
+Выбор города
+********************************/	
+			
+/*толстый номер*/	
+#cc_div .phone span {
+	text-align: center;
+	font-size: 26px;
+	color: #9e0000;
+}
+/*Город*/	
+#cc_div .phone b {
+	color:#000;
+	font-size: 20px;
+	font-weight: normal;
+        margin-left: 75px; 
+}
+/*Код города*/	
+#cc_div .phone i {
+	font-style:normal;
+        margin-left: 75px;
+}
+
+/*выбрать город*/	
+#cc_div a.choose
+{
+font-size: 12px;
+margin-left: 75px;
+text-decoration:none;
+border-bottom: 1px dotted #000;
+}
+
+/*блок выбора города*/
+#cc_div #cc_select_block 
+{
+	z-index: 4000;
+	display: none;
+	position: absolute;
+	background: #fff000;
+	border: 2px solid #fff010;
+	padding: 10px 10px;
+	margin-top: -38px;
+        margin-left:725px;
+	border-radius: 5px;
+	font: normal 14px/24px Arial, Tahoma, sans-serif;
+}
+/*блок выбора города before*/
+#cc_select_block .close_form a:hover {
+	background: none!important;
+}
+
+#cc_div #cc_select_block:after, #cc_div #cc_select_block:before {
+	bottom: 100%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; 
+}
+#cc_div #cc_select_blockafter {
+	border-color: rgba(255, 252, 183, 0); border-bottom-color: #fff000; border-width: 10px; left: 20%; margin-left: 3px;
+}
+#cc_div #cc_select_block:before {
+	border-color: rgba(255, 250, 132, 0); border-bottom-color: #fff000; border-width: 13px; left: 20%; margin-left: 0px;
+}
+
+#cc_div #cc_select_block table a:hover {
+background: #fffb9e;
+}
+
+#cc_div #cc_select_block table a {
+color: #000;
+padding: 2px 25px;
+display: block;
+width: 140px;
+outline: none;
+text-decoration: none;
+}
+
+/*крестик закрыть форму*/
+#cc_select_block .close_form {
+	position: absolute;
+	right: -13px;
+	height: 24px;
+	width: 24px;
+	top: -15px;
+	cursor: pointer;
+}
+
+
+
+/*буквица города*/
+#cc_select_block tbody tr td.b {
+font-size:20; color:#ad0006;font-weight:bold;
+}	
+/*Ссылка город*/
+#cc_select_block tbody tr td.c 
+{
+padding-left:10px;
+}
+
+
+/*******************************
+ /END Выбор города
+********************************/	
